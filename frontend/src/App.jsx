@@ -4,8 +4,7 @@ import WorkoutPlan from "./components/WorkoutPlan";
 import LogWorkout from "./components/LogWorkout";
 import History from "./components/History";
 
-const API_URL = "http://127.0.0.1:8000";
-
+const API_URL = "https://workout-coach-api.onrender.com";
 export default function App() {
   const [activeTab, setActiveTab] = useState("dashboard");
 
