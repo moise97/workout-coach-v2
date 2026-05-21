@@ -4,7 +4,8 @@ import WorkoutPlan from "./components/WorkoutPlan";
 import LogWorkout from "./components/LogWorkout";
 import History from "./components/History";
 
-const API_URL = "https://workout-coach-api.onrender.com";
+const API_URL =
+  import.meta.env.VITE_API_URL || "https://workout-coach-api.onrender.com";
 export default function App() {
   const [activeTab, setActiveTab] = useState("dashboard");
 
